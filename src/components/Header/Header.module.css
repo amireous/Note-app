@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.toggle-button {
+    background-color: #ccc;
+    padding: 1px;
+    border-radius: 30px;
+    border: none;
+    padding: 9px;
+    font-weight: 600;
+    font-family: system-ui, sans-serif;
+    transition: 0.3s background-color;
+    cursor: pointer;
+}
+
+.toggle-button:hover {
+    background-color: #9b9b9b;
+}
+
+.dark-mode h1 {
+    color: #fff;
+}

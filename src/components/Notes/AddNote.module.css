@@ -1,0 +1,43 @@
+.note {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* max-width: 304px; */
+    width: 100%;
+    background-color: #6cf7e4;
+    padding: 10px;
+    min-height: 200px;
+    border-radius: 10px;
+}
+
+textarea {
+    border: none;
+    background-color: #6cf7e4;
+    resize: none;
+    outline: none;
+}
+
+textarea::placeholder {
+    font-weight: 600;
+    color: #000;
+}
+
+.note-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note-footer button {
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    text-transform: capitalize;
+    background-color: #e1e1e1;
+}
+
+
+.note-footer button:hover {
+    background-color: #ededed;
+    cursor: pointer;
+}
